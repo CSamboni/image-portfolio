@@ -1,4 +1,4 @@
-# portfolio
+# image portfolio
 
 > A Vue.js + Firebase project
 
