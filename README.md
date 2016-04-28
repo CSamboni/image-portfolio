@@ -4,7 +4,7 @@
 
 show off pictures using Vue.js as the framework and Firebase as the backend.
 
-<a href="https://mjduplinsky.firebaseio.com">https://mjduplinsky.firebaseio.com</a>
+<a href="https://mjduplinsky.firebaseapp.com">https://mjduplinsky.firebaseapp.com</a>
 
 ## Before anything else...
 
@@ -36,7 +36,7 @@ Also add a user under `Login & Auth`
 ## Setup & Deploy
 
 
-Do a find&replace across all files, including .vue files for `portfolio` & `firebaseio.com` & `firebaseapp.com` then replace all of these with your own information. 
+Do a `find & replace` across all files, including .vue files for `portfolio` & `firebaseio.com` & `firebaseapp.com` then replace all of these with your own information. 
 
 
 To deploy to Firebase, change to your Firebase app, you can then run
