@@ -16,15 +16,15 @@ The Firebase rules are as follows:
 {
     "rules": {
         "users": {
-            ".write": "!data.exists()",
+            ".write": true,
             ".read": true
         },
         "images": {
-            ".write": "root.child('users').child(auth.uid).exists()",
+            ".write": true,
             ".read": true
         },
         "image_index": {
-            ".write": "root.child('users').child(auth.uid).exists()",
+            ".write": true,
             ".read": true
         }
     }

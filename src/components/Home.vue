@@ -29,7 +29,7 @@ export default {
     return {images: [], selectedImage: undefined}
   },
   firebase: {
-    imageIndex: new Firebase('https://mjduplinsky.firebaseio.com/images')
+    imageIndex: new Firebase('https://mjduplinsky.firebaseio.com/image_index')
   },
   methods: {
     droppedFile (event) {
